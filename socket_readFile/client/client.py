@@ -1,3 +1,8 @@
+'''
+serverとは別のファイルで実行
+serverとは別のターミナルで"python client.py"を起動, 
+serverとうまく通信が行えた場合, {ファイル名}_copy.txtというファイルが生成される
+'''
 import socket
 
 # socketの作成

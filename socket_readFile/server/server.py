@@ -1,3 +1,9 @@
+'''
+clientとは別のファイルで実行
+clientとは別のターミナルで"python sever.py"を起動.
+clientから指定されたファイルを読み込む(今回はORIGINAL_TEXT.txtを作成しておいた)
+clientにファイルの中身を返す.
+'''
 import socket
 
 # socketの作成
